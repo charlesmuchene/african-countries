@@ -1,0 +1,326 @@
+{
+  "DZ": {
+    "name": "Algeria",
+    "lang": "Arabic",
+    "capital": "Algiers",
+    "flag": "🇩🇿"
+  },
+  "AO": {
+    "name": "Angola",
+    "lang": "Portuguese",
+    "capital": "Luanda",
+    "flag": "🇦🇴"
+  },
+  "BJ": {
+    "name": "Benin",
+    "lang": "French",
+    "capital": "Porto-Novo",
+    "flag": "🇧🇯"
+  },
+  "BW": {
+    "name": "Botswana",
+    "lang": "Setswana",
+    "capital": "Gaborone",
+    "flag": "🇧🇼"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "lang": "French",
+    "capital": "Ouagadougou",
+    "flag": "🇧🇫"
+  },
+  "BI": {
+    "name": "Burundi",
+    "lang": "Kirundi",
+    "capital": "Bujumbura",
+    "flag": "🇧🇮"
+  },
+  "CV": {
+    "name": "Cabo Verde",
+    "lang": "Portuguese",
+    "capital": "Praia",
+    "flag": "🇨🇻"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "lang": "Major African languages",
+    "capital": "Yaoundé",
+    "flag": "🇨🇲"
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "lang": "French",
+    "capital": "Bangui",
+    "flag": "🇨🇫"
+  },
+  "TD": {
+    "name": "Chad",
+    "lang": "French",
+    "capital": "N'Djamena",
+    "flag": "🇹🇩"
+  },
+  "KM": {
+    "name": "Comoros",
+    "lang": "Arabic",
+    "capital": "Moroni",
+    "flag": "🇰🇲"
+  },
+  "CD": {
+    "name": "Democratic Republic of the Congo",
+    "lang": "French",
+    "capital": "Kinshasa",
+    "flag": "🇨🇩"
+  },
+  "CG": {
+    "name": "Republic of the Congo",
+    "lang": "French",
+    "capital": "Brazzaville",
+    "flag": "🇨🇬"
+  },
+  "CI": {
+    "name": "Cote D'Ivoire",
+    "lang": "French",
+    "capital": "Yamoussoukro",
+    "flag": "🇨🇮"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "lang": "French",
+    "capital": "Djibouti (city)",
+    "flag": "🇩🇯"
+  },
+  "EG": {
+    "name": "Egypt",
+    "lang": "Arabic",
+    "capital": "Cairo",
+    "flag": "🇪🇬"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "lang": "Spanish",
+    "capital": "Malabo",
+    "flag": "🇬🇶"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "lang": "Afar",
+    "capital": "Asmara",
+    "flag": "🇪🇷"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "lang": "Amharic",
+    "capital": "Addis Ababa",
+    "flag": "🇪🇹"
+  },
+  "GA": {
+    "name": "Gabon",
+    "lang": "French",
+    "capital": "Libreville",
+    "flag": "🇬🇦"
+  },
+  "GH": {
+    "name": "Ghana",
+    "lang": "English",
+    "capital": "Accra",
+    "flag": "🇬🇭"
+  },
+  "GM": {
+    "name": "Gambia",
+    "lang": "English",
+    "capital": "Banjul",
+    "flag": "🇬🇲"
+  },
+  "GN": {
+    "name": "Guinea",
+    "lang": "French",
+    "capital": "Conakry",
+    "flag": "🇬🇳"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "lang": "Portuguese",
+    "capital": "Bissau",
+    "flag": "🇬🇼"
+  },
+  "KE": {
+    "name": "Kenya",
+    "lang": "English",
+    "capital": "Nairobi",
+    "flag": "🇰🇪"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "lang": "Sesotho",
+    "capital": "Maseru",
+    "flag": "🇱🇸"
+  },
+  "LR": {
+    "name": "Liberia",
+    "lang": "English",
+    "capital": "Monrovia",
+    "flag": "🇱🇷"
+  },
+  "LY": {
+    "name": "Libya",
+    "lang": "Arabic",
+    "capital": "Tripoli",
+    "flag": "🇱🇾"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "lang": "French",
+    "capital": "Antananarivo",
+    "flag": "🇲🇬"
+  },
+  "MW": {
+    "name": "Malawi",
+    "lang": "Chichewa",
+    "capital": "Lilongwe",
+    "flag": "🇲🇼"
+  },
+  "ML": {
+    "name": "Mali",
+    "lang": "French",
+    "capital": "Bamako",
+    "flag": "🇲🇱"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "lang": "Arabic",
+    "capital": "Nouakchott",
+    "flag": "🇲🇷"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "lang": "Creole",
+    "capital": "Port Louis",
+    "flag": "🇲🇺"
+  },
+  "MA": {
+    "name": "Morocco",
+    "lang": "Arabic",
+    "capital": "Rabat",
+    "flag": "🇲🇦"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "lang": "Emakhuwa",
+    "capital": "Maputo",
+    "flag": "🇲🇿"
+  },
+  "NA": {
+    "name": "Namibia",
+    "lang": "English",
+    "capital": "Windhoek",
+    "flag": "🇳🇦"
+  },
+  "NE": {
+    "name": "Niger",
+    "lang": "French",
+    "capital": "Niamey",
+    "flag": "🇳🇪"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "lang": "English",
+    "capital": "Abuja",
+    "flag": "🇳🇬"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "lang": "Kinyarwanda",
+    "capital": "Kigali",
+    "flag": "🇷🇼"
+  },
+  "ST": {
+    "name": "Sao Tome And Principe",
+    "lang": "Portuguese",
+    "capital": "São Tomé",
+    "flag": "🇸🇹"
+  },
+  "SN": {
+    "name": "Senegal",
+    "lang": "French",
+    "capital": "Dakar",
+    "flag": "🇸🇳"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "lang": "Creole",
+    "capital": "Victoria",
+    "flag": "🇸🇨"
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "lang": "English",
+    "capital": "Freetown",
+    "flag": "🇸🇱"
+  },
+  "SO": {
+    "name": "Somalia",
+    "lang": "Somali",
+    "capital": "Mogadishu",
+    "flag": "🇸🇴"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "lang": "IsiZulu",
+    "capital": "Pretoria / Cape Town",
+    "flag": "🇿🇦"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "lang": "Arabic",
+    "capital": "Juba",
+    "flag": "🇸🇸"
+  },
+  "SD": {
+    "name": "Sudan",
+    "lang": "Arabic",
+    "capital": "Khartoum",
+    "flag": "🇸🇩"
+  },
+  "SZ": {
+    "name": "Eswatini",
+    "lang": "English",
+    "capital": "Mbabane",
+    "flag": "🇸🇿"
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "lang": "Kiswahili or Swahili",
+    "capital": "Dodoma",
+    "flag": "🇹🇿"
+  },
+  "TG": {
+    "name": "Togo",
+    "lang": "French",
+    "capital": "Lomé",
+    "flag": "🇹🇬"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "lang": "Arabic",
+    "capital": "Tunis",
+    "flag": "🇹🇳"
+  },
+  "UG": {
+    "name": "Uganda",
+    "lang": "English",
+    "capital": "Kampala",
+    "flag": "🇺🇬"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "lang": "English",
+    "capital": "Lusaka",
+    "flag": "🇿🇲"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "lang": "English",
+    "capital": "Harare",
+    "flag": "🇿🇼"
+  }
+}
