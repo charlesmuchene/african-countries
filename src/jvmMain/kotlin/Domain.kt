@@ -27,8 +27,11 @@ class Africa(private val countries: Countries) : Iterable<Country> {
         private var nextIndex = if (countries.isEmpty()) -1 else 0
 
         override fun hasNext(): Boolean = nextIndex in countries.indices
-        override fun next(): Country = countries[nextIndex].also {
-            nextIndex += 1
+        override fun next(): Country {
+            if (!hasNext()) throw NoSuchElementException("We don't have that country")
+            return countries[nextIndex].also {
+                nextIndex += 1
+            }
         }
     }
 }
