@@ -1,6 +1,8 @@
 @file:JvmName("AfricaApp")
 
 import androidx.compose.runtime.*
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.window.Tray
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import kotlinx.coroutines.Dispatchers
@@ -14,8 +16,9 @@ fun main() = application {
             africa = Africa(readCountries())
         }
     }
-
-    Window(onCloseRequest = ::exitApplication, title = "Africa") {
+    val icon = painterResource("africa.svg")
+    Tray(icon)
+    Window(onCloseRequest = ::exitApplication, title = "Africa", icon = icon) {
         App(africa)
     }
 }
