@@ -2,5 +2,7 @@
 A listing of countries in Africa.
 > Made with Jetpack Compose for Desktop
 
-## Run
+## Launch app
+> ./gradlew :run
+
 ![Africa](african-countries.png)
