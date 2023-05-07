@@ -8,5 +8,5 @@ class IOTests {
         val countries = readCountries()
         assertEquals(54, countries.size)
     }
-    
+
 }
