@@ -20,12 +20,16 @@ data class Country(
 }
 
 
-class Africa(private val countries: Countries = emptyList()) : Iterable<Country> {
-    override fun iterator(): Iterator<Country> = CountryIterator(countries.iterator())
+class Africa(private val countries: Countries) : Iterable<Country> {
+    override fun iterator(): Iterator<Country> = CountryIterator(countries)
 
-    private class CountryIterator(val iterator: Iterator<Country>) : Iterator<Country> {
-        override fun hasNext(): Boolean = iterator.hasNext()
-        override fun next(): Country = iterator.next()
+    private class CountryIterator(private val countries: Countries) : Iterator<Country> {
+        private var nextIndex = if (countries.isEmpty()) -1 else 0
+
+        override fun hasNext(): Boolean = nextIndex in countries.indices
+        override fun next(): Country = countries[nextIndex].also {
+            nextIndex += 1
+        }
     }
 }
 
