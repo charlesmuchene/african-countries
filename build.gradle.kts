@@ -33,7 +33,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "AfricaApp"
+        mainClass = "African Countries"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "africa"

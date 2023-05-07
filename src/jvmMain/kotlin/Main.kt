@@ -1,4 +1,4 @@
-@file:JvmName("AfricaApp")
+@file:JvmName("African Countries")
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
