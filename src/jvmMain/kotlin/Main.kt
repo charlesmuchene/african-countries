@@ -8,6 +8,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.serializer
@@ -42,7 +44,9 @@ fun main() = application {
     var africa by remember { mutableStateOf(Africa()) }
 
     LaunchedEffect(Unit) {
-        africa = Africa(readCountries())
+        withContext(Dispatchers.IO) {
+            africa = Africa(readCountries())
+        }
     }
 
     Window(onCloseRequest = ::exitApplication, title = "Africa") {
@@ -52,7 +56,7 @@ fun main() = application {
 
 private const val COUNTRIES_FILENAME = "africa.json"
 
-fun readCountries(filename: String = COUNTRIES_FILENAME): Map<ISOCode, Country> {
+private fun readCountries(filename: String = COUNTRIES_FILENAME): Map<ISOCode, Country> {
     val url = Africa::class.java.classLoader.getResource(filename)
     val file = File(url.toURI())
     val json = file.readText()
