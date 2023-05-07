@@ -26,7 +26,7 @@ class AfricaTest {
     @Test
     fun `a single country list yields the sole country`() {
         val kenya = Country(name = "Kenya", lang = "English", capital = "Nairobi", flag = "🇰🇪")
-        val countries = listOf(kenya)
+        val countries = readCountries(filename = "test-africa.json")
         africa = Africa(countries)
 
         val iterator = africa.iterator()
