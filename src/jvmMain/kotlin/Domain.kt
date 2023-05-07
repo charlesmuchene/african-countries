@@ -35,7 +35,9 @@ class ViewModel : CoroutineScope by MainScope() {
     init {
         launch(Dispatchers.IO) {
             val countries = readCountries()
-            countryGroups.emit(Africa(countries).groupCountriesByFirstChar())
+                .sortedBy(Country::name)
+            countryGroups.emit(Africa(countries)
+                .groupCountriesByFirstChar())
         }
     }
 
